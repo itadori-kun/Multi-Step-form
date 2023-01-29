@@ -914,7 +914,7 @@ input:checked+.slider:before {
         height: 6rem;
         position: absolute;
         top: calc(100% + 2rem);
-        left: -6rem;
+        left: -4rem;
         right: 2rem;
     }
 
