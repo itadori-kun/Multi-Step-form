@@ -756,7 +756,7 @@ input:checked+.slider:before {
         max-width: 91.47%;
         margin: auto;
         display: flex;
-       height:70%;
+       height:75%;
         flex-direction: column;
         background-color: var(--White);
         padding: 4rem 3rem;
@@ -842,11 +842,11 @@ input:checked+.slider:before {
     }
 
     .addons2 .buttons {
-        top: calc(100% + 13.5rem);
+        top: calc(100% + 15.5rem);
     }
 
     .addons3 .buttons {
-        top: calc(100% + 3.5rem);
+        top: calc(100% + 4rem);
     }
 
 
@@ -913,7 +913,7 @@ input:checked+.slider:before {
     .duration {
         height: 6rem;
         position: absolute;
-        top: calc(100% + 2rem);
+        top: calc(100% + 3rem);
         left: 0;
         right: 2rem;
     }
