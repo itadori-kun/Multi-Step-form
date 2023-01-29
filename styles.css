@@ -771,7 +771,7 @@ input:checked+.slider:before {
     .info .top {
         height: 81.7%;
         width: 100%;
-        background-color: var(--White);
+        background-color: var(--White) !important;
     }
 
     .header {
@@ -852,8 +852,6 @@ input:checked+.slider:before {
     .addons3 .buttons {
 /*         top: calc(200% + 13.5rem); */
         top: 640%;
-        
-/*         margin-top: 100% */
     }
 
 
