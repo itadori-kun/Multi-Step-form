@@ -756,7 +756,7 @@ input:checked+.slider:before {
         max-width: 91.47%;
         margin: auto;
         display: flex;
-/*         height: 50rem; */
+        height: 60rem;
         flex-direction: column;
         background-color: var(--White);
         padding: 4rem 3rem;
@@ -850,9 +850,9 @@ input:checked+.slider:before {
     }
 
     .addons3 .buttons {
-/*         top: calc(100% + 13.5rem); */
+        top: calc(100% + 13.5rem);
 /*         top: 640%; */
-        top:10rem;
+/*         top:10rem; */
     }
 
 
