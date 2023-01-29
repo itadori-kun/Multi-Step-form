@@ -835,22 +835,22 @@ input:checked+.slider:before {
 
 
     .addons .buttons {
-        top: calc(100% + 17rem);
+        top: calc(200% + 17rem);
         
     }
 
     .addons1 .buttons {
-        top: calc(100% + 20rem);
+        top: calc(200% + 20rem);
        
     }
 
     .addons2 .buttons {
-        top: calc(100% + 3.5rem);
+        top: calc(200% + 3.5rem);
       
     }
 
     .addons3 .buttons {
-        top: calc(100% + 13.5rem);
+        top: calc(200% + 13.5rem);
 /*         top: 635%; */
         
 /*         margin-top: 100% */
