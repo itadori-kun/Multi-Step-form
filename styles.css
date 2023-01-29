@@ -830,25 +830,29 @@ input:checked+.slider:before {
         right: 0;
         background-color: var(--White);
         padding: 2rem;
+        bottom: 0;
     }
 
 
     .addons .buttons {
         top: calc(100% + 17rem);
+        
     }
 
     .addons1 .buttons {
         top: calc(100% + 20rem);
+       
     }
 
     .addons2 .buttons {
         top: calc(100% + 3.5rem);
+      
     }
 
     .addons3 .buttons {
-/*         top: calc(100% + 13.5rem); */
-        top: 635%;
-        bottom: 0
+        top: calc(100% + 13.5rem);
+/*         top: 635%; */
+        
 /*         margin-top: 100% */
     }
 
