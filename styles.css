@@ -756,7 +756,7 @@ input:checked+.slider:before {
         max-width: 91.47%;
         margin: auto;
         display: flex;
-        height: 81.7%;
+        height:50%;
         flex-direction: column;
         background-color: var(--White);
         padding: 4rem 3rem;
