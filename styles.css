@@ -756,7 +756,7 @@ input:checked+.slider:before {
         max-width: 91.47%;
         margin: auto;
         display: flex;
-        height: 50rem;
+        height: 60rem;
         flex-direction: column;
         background-color: var(--White);
         padding: 4rem 3rem;
@@ -769,8 +769,8 @@ input:checked+.slider:before {
     }
 
     .info .top {
-/*         height: 81.7%; */
-        height: fit-content;
+        height: 81.7%;
+/*         height: fit-content; */
         width: 100%;
 /*         background-color: var(--White) !important; */
     }
@@ -836,18 +836,18 @@ input:checked+.slider:before {
 
 
     .addons .buttons {
-        top: calc(100% + 17rem);
+        top: calc(100% + 22rem);
 /*         top: 835%; */
     }
 
     .addons1 .buttons {
 /*         top: calc(100% + 20rem); */
-        top: calc(100% + 6rem);
+        top: calc(100% + 22rem);
 /*        top: 835%; */
     }
 
     .addons2 .buttons {
-        top: calc(100% + 6.5rem);
+        top: calc(100% + 8.5rem);
 /*       top: 835%; */
     }
 
@@ -920,7 +920,7 @@ input:checked+.slider:before {
 
     .duration {
         height: 6rem;
-        margin-top: 20rem;
+        margin-top: 1rem;
     }
 
     .duration-type {
