@@ -684,7 +684,7 @@ input:checked+.slider:before {
 
     .main {
         display: block;
-        position: relative;
+/*         position: relative; */
     }
 
     .main-section {
@@ -696,7 +696,7 @@ input:checked+.slider:before {
         justify-content: center;
         padding: 0;
         background-color: inherit;
-        /* position: relative; */
+        position: relative;
     }
 
     /* TOPBAR SECTION */
@@ -846,8 +846,8 @@ input:checked+.slider:before {
 
     .addons3 .buttons {
 /*         top: calc(100% + 13.5rem); */
-/*         top:135%; */
-        bottom: 0
+        top: 135%;
+/*         bottom: 0 */
     }
 
 
