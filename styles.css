@@ -765,7 +765,7 @@ input:checked+.slider:before {
         top: 12.375rem;
         left: 2rem;
         right: 2rem;
-        z-index: 2;
+        z-index: 99;
     }
 
     .info .top {
@@ -845,8 +845,8 @@ input:checked+.slider:before {
     }
 
     .addons3 .buttons {
-/*         top: calc(100% + 13.5rem); */
-        top: 135%;
+        top: calc(100% + 13.5px);
+/*         top: 135%; */
 /*         bottom: 0 */
     }
 
