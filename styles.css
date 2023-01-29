@@ -834,25 +834,19 @@ input:checked+.slider:before {
 
 
     .addons .buttons {
-        top: calc(100% + 16rem);
-/*         top: 835%; */
+        top: calc(100% + 8rem);
     }
 
     .addons1 .buttons {
-/*         top: calc(100% + 20rem); */
-        top: calc(100% + 16rem);
-/*        top: 835%; */
+        top: calc(100% + 8rem);
     }
 
     .addons2 .buttons {
         top: calc(100% + 13.5rem);
-/*       top: 835%; */
     }
 
     .addons3 .buttons {
         top: calc(100% + 3.5rem);
-/*         top: 640%; */
-/*         top:10rem; */
     }
 
 
@@ -918,9 +912,10 @@ input:checked+.slider:before {
 
     .duration {
         height: 6rem;
-/*         margin-top: 2rem; */
         position: absolute;
         top: calc(100% + 2rem);
+        left: -2rem;
+        right: 2rem;
     }
 
     .duration-type {
