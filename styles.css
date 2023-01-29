@@ -850,7 +850,7 @@ input:checked+.slider:before {
     }
 
     .addons3 .buttons {
-        top: calc(100% + 13.5rem);
+/*         top: calc(100% + 13.5rem); */
 /*         top: 640%; */
     }
 
