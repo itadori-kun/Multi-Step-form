@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>Frontend Mentor | Multi-step form</title>
+  </head>
+
+  <body>
+    <main class="main">
+      <section class="main-section">
+        <div class="sidebar">
+          <div class="selected-section">
+            <div class="steps">
+              <div class="round  active">1</div>
+              <div class="step-text">
+                <span>Step 1</span>
+                <h2>Your info</h2>
+              </div>
+            </div>
+            <div class="steps">
+              <div class="round ">2</div>
+              <div class="step-text">
+                <span>Step 2</span>
+                <h2>Select plan</h2>
+              </div>
+            </div>
+            <div class="steps">
+              <div class="round ">3</div>
+              <div class="step-text">
+                <span>Step 3</span>
+                <h2>Add-ons</h2>
+              </div>
+            </div>
+            <div class="steps">
+              <div class="round">4</div>
+              <div class="step-text">
+                <span>Step 4</span>
+                <h2>Summary</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="info">
+          <div class="top addons3 visible">
+            <header class="header">
+              <h1>Personal info</h1>
+              <p>Please provide your name, email address, and phone number.</p>
+            </header>
+            <form class="form">
+              <div>
+                <div class="label-container">
+                  <label for="name">Name</label>
+                  <span class="err" id='nameErr'></span>
+                </div>
+                <input type="text" id="name" placeholder="e.g. Stephen King" class="form-input">
+              </div>
+              <div>
+                <div class="label-container">
+                  <label for="email">Email Address</label>
+                  <span class="err" id='emailErr'></span>
+                </div>
+                <input type="email" id="email" placeholder="e.g. stephenking@lorem.com" class="form-input">
+              </div>
+              <div>
+                <div class="label-container">
+                  <label for="phone">Phone number</label>
+                  <span class="err" id='phoneErr'></span>
+                </div>
+                <input type="tel" id="phone" placeholder=" e.g. +1 234 567 890" class="form-input">
+              </div>
+            </form>
+            <div class="buttons">
+              <button class="btn left">Go back</button>
+              <button class="btn right" id="formSubmit">Next Step</button>
+            </div>
+          </div>
+          <div class="top addons2 notVisible">
+            <header class="header">
+              <h1>Select your plan</h1>
+              <p>You have the option of monthly or yearly billing.</p>
+            </header>
+            <div class="plans">
+              <div class="package selected">
+                <img src="./assets/images/icon-arcade.svg" alt="">
+                <div class="package-type">
+                  <h3 class="name-type">Arcade</h3>
+                  <span class="price">$<span class="fig">9</span>/<span class="days">mo</span></span>
+                  <span class="monthly"> </span>
+                </div>
+              </div>
+              <div class="package chill">
+                <img src="./assets/images/icon-advanced.svg" alt="">
+                <div class="package-type">
+                  <h3 class="name-type">Advanced</h3>
+                  <span class="price">$<span class="fig">12</span>/<span class="days">mo</span></span>
+                  <span class="monthly"></span>
+                </div>
+              </div>
+              <div class="package">
+                <img src="./assets/images/icon-pro.svg" alt="">
+                <div class="package-type">
+                  <h3 class="name-type">Pro</h3>
+                  <span class="price">$<span class="fig">15</span>/<span class="days">mo</span></span>
+                  <span class="monthly"></span>
+                </div>
+              </div>
+            </div>
+            <div class="duration">
+              <div class="duration-type">
+                <label class="left switchActive">Monthly</label>
+                <label class="switch" id="switch">
+                  <input type="checkbox" id="checkedInput">
+                  <span class="slider circle"></span>
+                </label>
+                <label class="right">Yearly</label>
+              </div>
+            </div>
+            <div class="buttons">
+              <button class="btn left" id="returnStart">Go back</button>
+              <button class="btn right" id="addToArr">Next Step</button>
+            </div>
+          </div>
+          <div class="top addons notVisible">
+            <header class="header">
+              <h1>Pick add-ons</h1>
+              <p>Add-ons help enhance your gaming experience.</p>
+            </header>
+            <div class="extras">
+              <div class="left">
+                <input type="checkbox" checked class='tick'>
+                <div>
+                  <h3 class="addon-type">Online service</h3>
+                  <span>Access to multiplayer games</span>
+                </div>
+              </div>
+              <p class="price addon-price">+$<span class="priceFixed"></span>/<span class="packageDuration"></span></p>
+            </div>
+            <div class="extras">
+              <div class="left">
+                <input type="checkbox" checked class='tick'>
+                <div>
+                  <h3 class="addon-type">Larger storage</h3>
+                  <span>Extra 1TB of cloud save</span>
+                </div>
+              </div>
+              <p class="price addon-price">+$<span class="priceFixed"></span>/<span class="packageDuration"></span></p>
+            </div>
+            <div class="extras">
+              <div class="left">
+                <input type="checkbox" class='tick'>
+                <div>
+                  <h3 class="addon-type">Customizable Profile</h3>
+                  <span>Custom theme on your profile</span>
+                </div>
+              </div>
+              <p class="price addon-price">+$<span class="priceFixed"></span>/<span class="packageDuration"></span></p>
+            </div>
+            <div class="buttons">
+              <button class="btn left" id="returnback1">Go back</button>
+              <button class="btn right" id="addOnBtn">Next Step</button>
+            </div>
+          </div>
+          <div class="top addons1 notVisible">
+            <header class="header">
+              <h1>Finishing up</h1>
+              <p>Double-check everything looks OK before confirming.</p>
+            </header>
+            <div class="last-touch" >
+              <div class="last-details">
+                <div class="plan-type" >
+                  <div class="top1">
+                    <h3 id='final-output-selected'></h3>
+                    <span id="change">Change</span>
+                  </div>
+                  <p id='final-output-selectedPrice'></p>
+                </div>
+                <hr>
+                <div id='final-output-addon'>
+                </div>
+              </div>
+              <div class="total-price" id="total-price">
+              </div>
+            </div>
+            <div class="buttons">
+              <button class="btn left" id="returnback2">Go back</button>
+              <button class="btn right" id="confirmState">Confirm</button>
+            </div>
+          </div>
+          <div class="top last-stage notVisible">
+            <div class="thankYouImg">
+              <img src="./assets/images/icon-thank-you.svg" alt="" class="thank-you-img">
+            </div>
+            <h1>Thank you!</h1>
+            <p>Thanks for confirming your subscription! We hope you have fun
+              using our platform. If you ever need support, please feel free
+              to email us at support@loremgaming.com.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="app.js"></script>
+
+</html>
