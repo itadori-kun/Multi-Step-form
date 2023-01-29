@@ -756,7 +756,7 @@ input:checked+.slider:before {
         max-width: 91.47%;
         margin: auto;
         display: flex;
-        height: 50rem;
+        height: fit-content !important;
         flex-direction: column;
         background-color: var(--White);
         padding: 4rem 3rem;
@@ -835,23 +835,23 @@ input:checked+.slider:before {
 
 
     .addons .buttons {
-/*         top: calc(200% + 17rem); */
-        top: 835%;
+        top: calc(100% + 17rem);
+/*         top: 835%; */
     }
 
     .addons1 .buttons {
-/*         top: calc(200% + 20rem); */
-       top: 835%;
+        top: calc(100% + 20rem);
+/*        top: 835%; */
     }
 
     .addons2 .buttons {
-/*         top: calc(200% + 3.5rem); */
-      top: 835%;
+        top: calc(100% + 3.5rem);
+/*       top: 835%; */
     }
 
     .addons3 .buttons {
-/*         top: calc(200% + 13.5rem); */
-        top: 640%;
+        top: calc(100% + 13.5rem);
+/*         top: 640%; */
     }
 
 
